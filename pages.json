@@ -33,6 +33,24 @@
             }
             
         }
+        ,{
+            "path" : "pages/web/web",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/zhuce/zhuce",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
     ],
 	"globalStyle": {
 			"navigationBarTitleText": "首页",
