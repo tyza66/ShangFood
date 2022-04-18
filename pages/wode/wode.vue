@@ -1,5 +1,6 @@
 <template>
     <view class="login">
+		<view class="top"></view>
         <view class="top_item">
             <text style="color: #000000;font-size: 22px;font-weight: bold;">密码登录</text>
             <text style="color: #000000;font-size: 20px;margin-right: 10px">验证码></text>
@@ -17,7 +18,7 @@
             <input class="input" placeholder="请输入密码" style="margin-left: 40rpx;" />
         </view>
         <view class="button" @click="login">登录</view>
-		<view class="button" @click="login">注册</view>
+		<view class="button" @click="zhuce">注册</view>
     </view>
 </template>
 
@@ -35,11 +36,21 @@
             login() {
                 console.log('登录........')
             },
+			zhuce(){
+				uni.navigateTo({
+					url:'../zhuce/zhuce'
+				})
+			}
         }
     }
 </script>
 
 <style>
+	.top {
+		height: var(--status-bar-height);
+		width: 100%;
+		background-color: #FFFFFF;
+	}
     .top_item {
         display: flex;
         margin-top: 40rpx;

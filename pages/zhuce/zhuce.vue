@@ -1,5 +1,6 @@
 <template>
     <view class="login">
+		<view class="top"></view>
         <view class="top_item">
             <text style="color: #000000;font-size: 22px;font-weight: bold;">用户注册</text>
             <text style="color: #000000;font-size: 20px;margin-right: 10px">验证码></text>
@@ -43,6 +44,7 @@
 </script>
 
 <style>
+	
     .top_item {
         display: flex;
         margin-top: 40rpx;
